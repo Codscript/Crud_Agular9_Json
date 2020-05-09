@@ -1,0 +1,19 @@
+{
+    "products":[
+        {
+        "id": 1,
+        "name": "caneta bic prt.",
+        "price": 2.50
+        },
+        {
+        "id": 2,
+        "name": "computador del",
+        "price": 2500.00
+        },
+        {
+        "id": 3,
+        "name": "notebook del",
+        "price": 2000.00
+        }
+    ]
+}
