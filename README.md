@@ -5,3 +5,7 @@ Crud com api json criada usando json-server manipulando pakaeg.json.
 Criando um projeto angular minimal com o minimo de dependencias para o projeto.
 
 [Link do curso gratuito na udemy](https://www.udemy.com/share/102Sq6BEQedl9aTHw=/)
+
+## Comandos de criação de projetos, componentes, diretivas e etc..
+
+Criando prijeto: ng new 'Nome do seu projeto'
