@@ -33,6 +33,8 @@ import { MatSortModule } from '@angular/material/sort';
 /* Para colocar o padrão da localisação Ex: ponto por vorgula em valores decimais */
 import localePt from "@angular/common/locales/pt";
 import { registerLocaleData } from "@angular/common";
+import { ProductUpdateComponent } from './components/product/product-update/product-update.component';
+import { ProductDeleteComponent } from './components/product/product-delete/product-delete.component';
 
 registerLocaleData(localePt);
 
@@ -46,7 +48,9 @@ registerLocaleData(localePt);
     ProductCrudComponent,
     ProductCreateComponent,
     ProductReadComponent,
-    ProductRefReadComponent
+    ProductRefReadComponent,
+    ProductUpdateComponent,
+    ProductDeleteComponent
   ],
   imports: [
     BrowserModule,
