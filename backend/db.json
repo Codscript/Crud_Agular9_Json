@@ -19,6 +19,16 @@
       "name": "teste form",
       "price": "1.10",
       "id": 4
+    },
+    {
+      "name": "Leite",
+      "price": "3.00",
+      "id": 5
+    },
+    {
+      "name": "leite",
+      "price": "3.00",
+      "id": 6
     }
   ]
 }

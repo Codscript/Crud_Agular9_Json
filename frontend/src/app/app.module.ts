@@ -1,5 +1,5 @@
 import { BrowserModule } from '@angular/platform-browser';
-import { NgModule } from '@angular/core';
+import { NgModule, LOCALE_ID } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -29,6 +29,12 @@ import { ProductRefReadComponent } from './components/product/product-ref-read/p
 import { MatTableModule } from '@angular/material/table';
 import { MatPaginatorModule } from '@angular/material/paginator';
 import { MatSortModule } from '@angular/material/sort';
+
+/* Para colocar o padrão da localisação Ex: ponto por vorgula em valores decimais */
+import localePt from "@angular/common/locales/pt";
+import { registerLocaleData } from "@angular/common";
+
+registerLocaleData(localePt);
 
 @NgModule({
   declarations: [
@@ -60,7 +66,10 @@ import { MatSortModule } from '@angular/material/sort';
     MatPaginatorModule,
     MatSortModule
   ],
-  providers: [],
+  providers: [{
+    provide: LOCALE_ID,
+    useValue: "pt-br"
+  }],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

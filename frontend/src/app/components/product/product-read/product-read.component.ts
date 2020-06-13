@@ -10,7 +10,8 @@ import { ProductService } from '../product.service';
 export class ProductReadComponent implements OnInit {
 
   products: Product[];
-  displayedColumns = ['id', 'name', 'price'];
+  /* Mais uma forma de parameto de dados para tabela read */
+  displayedColumns = ['id', 'name', 'price', 'ation'];
 
   constructor(private productService: ProductService) { }
 

@@ -23,11 +23,14 @@ export class ProductService {
     })
     
   }
-  // Observable Padrão baseado em evento
+  /* Observable Padrão baseado em evento,
+  Create recebe o post atravez do parametro `product`
+  */
   create(product: Product): Observable<Product> {
     return this.http.post<Product>(this.baseUrl, product)
   }
-
+/* Read retorna um get como array da api 
+*/
   read(): Observable<Product[]>{
     return this.http.get<Product[]>(this.baseUrl)
   }
