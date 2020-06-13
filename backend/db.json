@@ -2,8 +2,8 @@
   "products": [
     {
       "id": 1,
-      "name": "caneta bic prt.",
-      "price": 2.5
+      "name": "caneta bic",
+      "price": "2.6"
     },
     {
       "id": 2,
@@ -16,8 +16,8 @@
       "price": 2000
     },
     {
-      "name": "teste form",
-      "price": "1.10",
+      "name": "torrone",
+      "price": "1",
       "id": 4
     },
     {
