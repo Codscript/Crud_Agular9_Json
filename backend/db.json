@@ -1,16 +1,6 @@
 {
   "products": [
     {
-      "id": 1,
-      "name": "caneta bic",
-      "price": "2.6"
-    },
-    {
-      "id": 2,
-      "name": "computador del",
-      "price": 2500
-    },
-    {
       "id": 3,
       "name": "notebook del",
       "price": 2000
@@ -29,6 +19,11 @@
       "name": "leite",
       "price": "3.00",
       "id": 6
+    },
+    {
+      "name": "melão",
+      "price": "5.00",
+      "id": 7
     }
   ]
 }

@@ -13,9 +13,9 @@ export class ProductUpdateComponent implements OnInit {
   product: Product
 
   constructor(private router: Router, private productService: ProductService, private route: ActivatedRoute) { }
-
+  // O sinal de `+` converte para number
   ngOnInit(): void {
-    const id = this.route.snapshot.paramMap.get("id")
+    const id = +this.route.snapshot.paramMap.get("id")
     this.productService.readById(id).subscribe(product => {
     this.product = product
   });
