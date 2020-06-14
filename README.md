@@ -6,6 +6,12 @@ Criando um projeto angular minimal com o minimo de dependencias para o projeto.
 
 [Link do curso gratuito na udemy](https://www.udemy.com/share/102Sq6BEQedl9aTHw=/)
 
-## Comandos de criação de projetos, componentes, diretivas e etc..
+## Comandos de criação de projetos, componentes, services e etc..
 
-Criando prijeto: ng new 'Nome do seu projeto'
+No link abaixo  da documentação Agular, para uso dos comandos de criação no terminal.
+[Link com infomações para criar usando 'ng g' componentes, models, Services e etc...](https://angular.io/cli/generate)
+
+
+## Crud completo abaixo...
+
+![Tela de  inicio](telaDeInicio.png)
