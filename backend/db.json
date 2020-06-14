@@ -1,11 +1,6 @@
 {
   "products": [
     {
-      "id": 3,
-      "name": "notebook del",
-      "price": 2000
-    },
-    {
       "name": "torrone",
       "price": "1",
       "id": 4
@@ -19,11 +14,6 @@
       "name": "leite",
       "price": "3.00",
       "id": 6
-    },
-    {
-      "name": "melão",
-      "price": "5.00",
-      "id": 7
     }
   ]
 }
