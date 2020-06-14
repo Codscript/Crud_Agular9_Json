@@ -14,4 +14,51 @@ No link abaixo  da documentação Agular, para uso dos comandos de criação no 
 
 ## Crud completo abaixo...
 
+Tela de início apresentação
+
+
 ![Tela de  inicio](telaDeInicio.png)
+
+
+
+Tela de Produto formulario `Create`
+
+
+![Tela de criação de produto](telaCriacaoproduto.png)
+
+
+Tela de mensagem `Creat`
+
+
+![Tela de mensagem](sucessoCriar.png)
+
+
+Tela lista de Produtos  `Read`
+
+
+![Tela lista de Produtos ](listaDeProdutos.png)
+
+
+Tela de Produto formulario `Update`
+
+
+![Tela de Atulizar](telaAtualizar.png)
+
+
+
+Tela de mensagem `Update`
+
+
+![Tela de mensagem](sucessoAtulizar.png)
+
+
+Tela de Produto `Delete`
+
+
+![Tela de Deletar](telaDeletar.png)
+
+
+Tela de mensagem `Deletar`
+
+
+![Tela de mensagem](sucessoDeletar.png)
