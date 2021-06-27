@@ -77,7 +77,8 @@ registerLocaleData(localePt);
     MatTableModule,
     MatPaginatorModule,
     MatSortModule,
-    ChartsModule
+    ChartsModule,
+    MatInputModule
   ],
   providers: [{
     provide: LOCALE_ID,
