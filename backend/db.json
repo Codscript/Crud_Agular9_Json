@@ -11,8 +11,48 @@
       "id": 5
     },
     {
+      "name": "leite condençado",
+      "price": "6.00",
+      "id": 6
+    }
+  ],
+  "vendas": [
+    {
+      "name": "torrone",
+      "price": "1.5",
+      "total": "1500",
+      "id": 4
+    },
+    {
+      "name": "cafe",
+      "price": "3.00",
+      "total": "1500",
+      "id": 5
+    },
+    {
       "name": "leite",
       "price": "3.00",
+      "total": "1500",
+      "id": 6
+    }
+  ],
+  "login": [
+    {
+      "login": "rafaelmonteiro",
+      "senha": "m123456",
+      "nivel": "admin",
+      "id": 4
+    },
+    {
+      "login": "mochellemonteiro",
+      "senha": "r123456",
+      "nivel": "admin",
+      "id": 5
+    },
+    {
+      "login": "angelacatarina",
+      "senha": "c123456",
+      "nivel": "user",
       "id": 6
     }
   ]

@@ -35,6 +35,12 @@ import localePt from "@angular/common/locales/pt";
 import { registerLocaleData } from "@angular/common";
 import { ProductUpdateComponent } from './components/product/product-update/product-update.component';
 import { ProductDeleteComponent } from './components/product/product-delete/product-delete.component';
+import { VendaschartComponent } from './components/sell/vendaschart/vendaschart.component';
+import { LoginComponent } from './components/login/login.component';
+
+/* modulo grafico */
+import { ChartsModule } from 'ng2-charts';
+
 
 registerLocaleData(localePt);
 
@@ -50,7 +56,9 @@ registerLocaleData(localePt);
     ProductReadComponent,
     ProductRefReadComponent,
     ProductUpdateComponent,
-    ProductDeleteComponent
+    ProductDeleteComponent,
+    VendaschartComponent,
+    LoginComponent
   ],
   imports: [
     BrowserModule,
@@ -68,7 +76,8 @@ registerLocaleData(localePt);
     MatInputModule,
     MatTableModule,
     MatPaginatorModule,
-    MatSortModule
+    MatSortModule,
+    ChartsModule
   ],
   providers: [{
     provide: LOCALE_ID,
